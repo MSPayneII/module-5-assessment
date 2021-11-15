@@ -1,4 +1,3 @@
-
 # call the open function with an argument of "um-server-01.txt", which is the file we want to open. The open function opens the file and returns it as a file object. We store that file object in a variable called log_file.
 log_file = open("um-server-01.txt")
 
@@ -6,11 +5,11 @@ log_file = open("um-server-01.txt")
 def sales_reports(log_file):
     # we have a for loop that loops through every line in the file object
     for line in log_file:
-        #removes any trailing white space from the line
+        # removes any trailing white space from the line
         line = line.rstrip()
-        #make a copy of the first three characters of a line and store then in the "day" variable
+        # make a copy of the first three characters of a line and store them in the "day" variable
         day = line[0:3]
-        # conditional statement checking if the chars in day = "Mon" 
+        # conditional statement checking if the characters in the variable day = "Mon" 
         if day == "Mon":
             # if true, print the line in the terminal
             print(line)
