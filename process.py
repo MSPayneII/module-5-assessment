@@ -19,7 +19,7 @@ sales_reports(log_file)
 
 log_file.close()
 
-########### extra credit ###########
+########### extra credit problem #2 ###########
 
 
 log_file = open("um-server-01.txt")
